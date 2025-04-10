@@ -1,0 +1,120 @@
+.services {
+  /* padding: 80px 20px; */
+  text-align: center;
+  background-color: #fff;
+  margin: 0 0 20px 0;
+  }
+
+ .services__bg {
+    background-color: #d9d9d9;
+    border-radius: 0px 0px 50px 50px;
+  margin: 0 auto 40px auto; 
+  padding: 50px 120px;
+  display: inline-block;
+  text-align: center;
+}
+  .services__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .services__pretitle {
+    font-size: 16px;
+    color: #e84c3d;
+  }
+
+  .services__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .services__btn {
+    background-color: #e84c3d;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(232, 76, 61, 0.3);
+
+    &:hover {
+  transform: scale(1.05);
+;
+}
+
+  }
+
+.services__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.services-card {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  /* &__img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #e84c3d;
+    margin-bottom: 20px;
+  } */
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  &__description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+  }
+}
+
+.services-card__img-wrapper {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  background-color: #E15252;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.services-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 5; 
+}
+
+.services-card__img-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: rgba(225, 82, 82, 0.05); 
+  mix-blend-mode: multiply; 
+  pointer-events: none;
+}
