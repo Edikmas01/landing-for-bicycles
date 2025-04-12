@@ -1,5 +1,21 @@
 import { useEffect, useState } from "react";
 import "./Services.css";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.3,
+    },
+  },
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 200 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
 
 export const Services = () => {
   const [services, setServices] = useState([]);
@@ -24,9 +40,19 @@ export const Services = () => {
         <h1 className="services__title">Services for you</h1>
         <p className="services__pretitle">Repair and maintenance</p>
       </div>
-      <div className="services__list">
+      <motion.div
+        className="services__list"
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.2 }}
+      >
         {services.map((service) => (
-          <div key={service.id} className="services-card">
+          <motion.div
+            key={service.id}
+            className="services-card"
+            variants={cardVariants}
+          >
             <div className="services-card__img-wrapper">
               <img
                 src={service.img}
@@ -36,9 +62,9 @@ export const Services = () => {
             </div>
             <h2 className="service-card__title">{service.name}</h2>
             <p className="service-card__description">{service.description}</p>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
       <button className="services__btn">Get discount 10%</button>
     </section>
   );
