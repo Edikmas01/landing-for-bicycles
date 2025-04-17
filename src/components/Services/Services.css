@@ -1,5 +1,5 @@
 .services {
-  /* padding: 80px 20px; */
+  padding:  0 20px;
   text-align: center;
   background-color: #fff;
   margin: 0 0 20px 0;
@@ -117,4 +117,101 @@
   background-color: rgba(225, 82, 82, 0.05); 
   mix-blend-mode: multiply; 
   pointer-events: none;
+}
+/* Планшеты (с 768px) */
+@media (max-width: 1024px) {
+  .services__bg {
+    padding: 40px 60px; }
+
+  .services__title {
+    font-size: 28px;
+  }
+
+  .services__pretitle {
+    font-size: 14px;
+  }
+
+  .services__list {
+    gap: 30px; 
+  }
+
+  .services-card {
+    max-width: 280px;
+  }
+
+  .services-card__title {
+    font-size: 14px;
+  }
+
+  .services-card__description {
+    font-size: 12px;
+  }
+
+  .services__btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
+
+/* Мобильные телефоны (с 768px и ниже) */
+@media (max-width: 768px) {
+  .services__bg {
+    padding: 30px 20px; 
+  }
+
+  .services__title {
+    font-size: 22px;
+  }
+
+  .services__pretitle {
+    font-size: 12px;
+  }
+
+  .services__list {
+    gap: 40px; 
+  }
+
+  .services-card {
+    max-width: 220px; 
+  }
+
+  .services-card__title {
+    font-size: 12px;
+  }
+
+  .services-card__description {
+    font-size: 10px;
+  }
+
+}
+
+/* Очень маленькие экраны (до 480px) */
+@media (max-width: 480px) {
+  .services__bg {
+    padding: 30px 35px;
+  }
+
+  .services__title {
+    font-size: 18px;
+  }
+
+  .services__pretitle {
+    font-size: 10px;
+  }
+
+  .services__list {
+    gap: 15px;
+  }
+
+  .services-card {
+    max-width: 200px; /
+  }
+
+  .services-card__title {
+    font-size: 10px;
+  }
+
+  .services-card__description {
+    font-size: 9px;
+  }
 }

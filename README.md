@@ -1,8 +1,41 @@
-# React + Vite
+🚴‍♂️ Round Rock Bicycle Repair - Landing Page
+This is a responsive landing page project for a fictional bicycle repair service called Round Rock Bicycle Repair.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Project Description
+This landing page was built using React and includes modern UI features to create an engaging user experience.
 
-Currently, two official plugins are available:
+✨ Features
+✅ Responsive design: works on desktop, tablet, and mobile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Framer Motion animations:
+
+Smooth animations for the Hero section and Services section.
+
+📁 Services component with JSON data:
+
+Services are rendered dynamically from a local .json file.
+
+🚀 Deployed using Netlify.
+
+📷 UI Preview
+[View Figma Design](https://www.figma.com/design/HaTehAX8HYhcpliAQ0fgSq/12-FREE-Landing-Pages--Community-?node-id=0-1&t=5k6Z3rLZZlxcjRiN-1)
+
+🔧 Technologies Used
+React
+
+Framer Motion
+
+CSS Modules (or specify another method if used)
+
+JSON for dynamic content
+
+Netlify (deployment)
+
+
+
+🌐 Live Demo
+The project is live on Netlify:
+👉 View Live Site
+
+📩 Contact
+If you have any questions or suggestions, feel free to reach out!

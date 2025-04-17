@@ -9,9 +9,9 @@ function App() {
 
   return (<>
     <Hero />
-    <Services />
+  <Services />
     <About />
-    <Contact />
+    <Contact /> 
   </>)
 }
 
