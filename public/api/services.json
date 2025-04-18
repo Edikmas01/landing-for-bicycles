@@ -3,23 +3,23 @@
         "id": "1",
         "name": "Diagnosis and adjustment of the bike",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "img": "/public/assets/images/servicesImgOne.png"},
+        "img": "/assets/images/servicesImgOne.png"},
     {
         "id": "2",
         "name": "Diagnosis and adjustment of the bike",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "img": "/public/assets/images/servicesImgTwo.png"
+        "img": "/assets/images/servicesImgTwo.png"
     },
     {
         "id": "3",
         "name": "Diagnosis and adjustment of the bike",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "img": "/public/assets/images/servicesImgThree.png"
+        "img": "/assets/images/servicesImgThree.png"
     },
     {
         "id": "4",
         "name": "Diagnosis and adjustment of the bike",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-        "img": "/public/assets/images/servicesImgFour.png"
+        "img": "/assets/images/servicesImgFour.png"
     }
 ]

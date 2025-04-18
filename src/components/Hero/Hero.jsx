@@ -9,7 +9,7 @@ export const Hero = () => {
         <div className="hero__header">
           <img
             className="hero__logo"
-            src="/public/assets/images/logo.png"
+            src="/assets/images/logo.png"
             alt="Round Rock Logo"
           />
           <h1 className="hero__title">
