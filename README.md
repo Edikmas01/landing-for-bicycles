@@ -1,41 +1,46 @@
-🚴‍♂️ Round Rock Bicycle Repair - Landing Page
-This is a responsive landing page project for a fictional bicycle repair service called Round Rock Bicycle Repair.
+# 🚴‍♂️ Round Rock Bicycle Repair — Landing Page
 
-🛠️ Project Description
-This landing page was built using React and includes modern UI features to create an engaging user experience.
+A responsive landing page for a fictional bicycle repair service, built with modern web technologies.
 
-✨ Features
-✅ Responsive design: works on desktop, tablet, and mobile.
+---
 
-🎨 Framer Motion animations:
+## 🛠️ Project Overview
 
-Smooth animations for the Hero section and Services section.
+This project is a single-page responsive website developed using **React**. It features smooth animations and dynamic content rendering to create an engaging user experience.
 
-📁 Services component with JSON data:
+---
 
-Services are rendered dynamically from a local .json file.
+## ✨ Features
 
-🚀 Deployed using Netlify.
+- ✅ **Responsive Design** — works seamlessly on desktop, tablet, and mobile.
+- 🎨 **Framer Motion Animations** — smooth transitions in the Hero and Services sections.
+- 📁 **Dynamic Services Component** — service data loaded from a local `.json` file.
+- 🚀 **Deployed on Netlify** — fast and reliable hosting.
 
-📷 UI Preview
-[View Figma Design](https://www.figma.com/design/HaTehAX8HYhcpliAQ0fgSq/12-FREE-Landing-Pages--Community-?node-id=0-1&t=5k6Z3rLZZlxcjRiN-1)
+---
 
-🔧 Technologies Used
-React
+## 📷 UI Preview
 
-Framer Motion
+[🔗 View Figma Design](https://www.figma.com/design/HaTehAX8HYhcpliAQ0fgSq/12-FREE-Landing-Pages--Community-?node-id=0-1&t=5k6Z3rLZZlxcjRiN-1)
 
-CSS Modules (or specify another method if used)
+---
 
-JSON for dynamic content
+## 🔧 Technologies Used
 
-Netlify (deployment)
+- React
+- Framer Motion
+- CSS 
+- JSON (для хранения и отображения данных)
+- Netlify (деплой)
 
+---
 
+## 🌐 Live Demo
 
-🌐 Live Demo
-The project is live on Netlify:
-👉 View Live Site
+[👉 View Live Site](https://steady-squirrel-943111.netlify.app/)  
 
-📩 Contact
-If you have any questions or suggestions, feel free to reach out!
+---
+
+## 📩 Contact
+
+Have questions or suggestions? Feel free to reach out via GitHub issues or email.
